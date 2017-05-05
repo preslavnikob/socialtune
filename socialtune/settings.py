@@ -29,7 +29,7 @@ SECRET_KEY = '$vee@c7r8vdn2ujaweu@6dqh_c1z!=5dw-v*om4w#hd4fs638c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 APPEND_SLASH = False
-ALLOWED_HOSTS = ['http://138.68.42.34']
+ALLOWED_HOSTS = ['138.68.42.34']
 LOGIN_REDIRECT_URL='/set'
 LOGOUT_REDIRECT_URL='/'
 
