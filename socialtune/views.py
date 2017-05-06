@@ -210,7 +210,7 @@ def profile(request):
 
 
 @login_required
-def history(request):  # TODO надо переделать вывод
+def history(request):  
     user = Users.objects.filter(user_id=request.user.id).first()
     history = History.objects.filter(user=user).all()
     items=[]
